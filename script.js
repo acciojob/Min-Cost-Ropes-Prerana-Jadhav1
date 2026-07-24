@@ -9,7 +9,9 @@ function mincost(arr) {
 
 		let sum=first+second;
 
-		const+=sum;
+		cost+=sum;
+
+		arr.push(sum);
 	}
 
 	return cost;
